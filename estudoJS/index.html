@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="bumba.js"></script>
+</head>
+<body>
+
+    <h1> Oi bebe </h1>
+<script>
+    function moveon() { //exibe uma caixa de diálogo modal para fazer uma pergunta ao usuário
+var answer = confirm("ready to move on?");
+//se o cliente clicar no botão "OK", faz o navegador carregar uma nova página
+if (answer) window.location = "http://google.com";
+    } 
+    //executa a função definida acima por 1 minuto (60.000 milissegundos) a partir de agora.
+    setTimeout(moveon, 60000);
+</script>
+    
+</body>
+</html>
